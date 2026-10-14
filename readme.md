@@ -1,59 +1,5 @@
 
-Claude finished the response
-Ran 5 commands, edited a file, and 2 more tools
-Removed Harry (unrelated to this role anyway — general RAG, not training-data work), added the dedup pipeline project with your real numbers, merged the skills additions into the existing ML line instead of a new one to keep it at one page. Everything else — experience, TRACKR, PR review system, education, achievements — untouched.
 
-One thing to flag before you submit: the GitHub link in the header for this project won't work until you actually push the repo per the steps from earlier — do that before this resume goes anywhere.
-
-
-Resume
-Document·PDF 
-
-Resume
-TEX 
-provide a LINK option or something by which the recruiter can visit the project
-
-Adding project links to the resume like existing entries.
-Adding project links to the resume like existing entries.
-I can add a clickable GitHub link next to the project title (same pattern used for TRACKR's live link) — but I need the actual repo URL, since I can't invent one you haven't created yet.
-
-What's the repo URL going to be? If you haven't pushed it yet but know the name, give me github.com/AbhinavGangwar12/<repo-name> and I'll wire it in now — just make sure the repo is actually live and public before this resume goes out, or a recruiter clicking it gets a 404.
-
-for trackr the url is https://trackr-ivory-eight.vercel.app/fitness-tracker
-for pr review it is gonna be https://github.com/AbhinavGangwar12/pr-review-agent-tom
-and for the pipeline, it will be a kaggle notebook link https://www.kaggle.com/code/abnav1203/pipeline
-
-Edited a file, ran 2 commands, shared files
-All three project titles are now clickable (underlined, same style as your header links). One flag: a Kaggle code/notebook link for the pipeline project is weaker than a GitHub repo — recruiters expect to see clean, reviewable source + README on GitHub, not scroll through a notebook. If you have time before submitting, push the actual GitHub repo (as planned earlier) and swap that link in — it's a stronger signal for a data-engineering role specifically. Also double check the PR-review repo name (pr-review-agent-tom) and the Kaggle notebook are both public before this goes out, or the links 404 for the recruiter.
-
-
-Resume
-Document·PDF 
-
-Resume
-TEX 
-ok i will create a github repo for the pipeline as well, provide a readme for it
-
-Edited a file, read a file, and 2 more tools
-Updated to match your actual GPU pipeline and real run: batched GPU embeddings, max_records cap explained, and a "Results" section with your real 150K-record stats and the reasoning behind them (pre-deduplicated source, semantic dedup catching what hash-based methods miss).
-
-When you push the repo: include pipeline.py, README.md, requirements.txt, your real manifest.json from that run, and ideally 1–2 sample output shards. Once it's live, swap the Kaggle link on the resume for the GitHub repo URL — that's the stronger link for this role.
-
-
-Readme
-Document·MD 
-
-Write a message…
-
-
-Claude is AI and can make mistakes.
-SELECT
-
-EXPORT
-
-
-
-Readme · MD
 # Training Data Dedup & Filtering Pipeline
  
 
